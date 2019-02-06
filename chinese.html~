@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!-- AUTHOR Chunan Huang-->
+
+<html>
+
+	<head>
+		<title>Chunan Huang Personal Web</title>
+		<meta charset="GB 18030"/>
+
+		<!-- credit to bootstrap -->
+		<!--href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"-->
+		<link rel="stylesheet" href="bootstrap.css" type='text/css'>
+
+		<!-- credit to google apis:--> 
+		<!--https://fonts.googleapis.com/css?family=Roboto:300,400,700-->
+		<link href='./googleapis.css' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" type="text/css" href="./main.css">
+	</head>
+
+
+
+	<body >
+		<div class="top_part" id="top">
+
+			<!-- Use Bootstrap container For Header-->
+			<header class="container">
+				<div class="row" >
+
+					<nav class="col-sm-4 text-left">
+						<p><a href="#info">个人信息</a></p>
+						<p><a href="#education">教育</a></p>
+						<p><a href="#skill">职业技能</a></p>
+						<p><a href="#interest">兴趣爱好</a></p>
+					</nav>
+					<p align="right" id="language">
+					<a href="index.html">English</a>
+					</p>
+				</div>
+			</header>
+		</div>
+
+		<!-- Jumbotron for Chunan Huang-->
+		<section class="jumbotron">
+			<div class="container">
+				<div class="text-center">
+					<h3>欢迎来到我的网页</h3>
+					<h2>黄楚楠</h2>
+
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Contents of Page-->
+		<div id="content">
+			<section class="container" >
+
+				<!--Info-->
+				<div class="row" id="info"> 
+					<figure class="col-sm-6">
+						<p>个人信息</p>
+						<img src = "./profile.jpg" alt = "profile img">
+						
+					</figure>
+
+					<figure class="col-sm-6">
+						<a class="back_to_top"  href="#top">
+							<p  align="right">(返回顶部)</p></a>
+						<p>
+						姓名： 黄楚楠<br><br>
+						国籍： 中国<br><br>
+						性别： 一名直男 *_*<br><br>
+						性格特点: <br><br>
+						<span class="tab">
+							一个积极上进，充满信心的人(虽然有时候可能会有点自大-.-); 
+							喜欢各种难题挑战<br><br>
+							座右铭: 如果别人能做到，凭什么我不能<br><br>
+							重视效率. 不喜欢浪费时间. 做任何事情之前都喜欢先计划好.<br><br>
+							为人幽默 :-)  脾气好 易与他人相处 :)
+						</span>
+						</p>
+
+					</figure>
+				</div>
+
+
+				<!--Education-->
+				<div class="row" id="education">
+					<!-- Img half-->
+					<figure class="col-sm-6">
+						<p>教育</p>
+						<img src = "./ucsd.jpg" alt = "ucsd img" style="background-size: cover;">
+						
+					</figure>
+
+					<!-- Txt-->
+
+					<figure class="col-sm-6" >
+						<a class="back_to_top"  href="#top">
+							<p  align="right">(返回顶部)</p></a>
+					
+						<p >
+						<a href = "http://www.qianmu.org/%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%9C%A3%E5%9C%B0%E4%BA%9A%E5%93%A5%E5%88%86%E6%A0%A1" target="_blank">加州大学 圣迭戈分校</a>
+						<br><br>
+						本科
+						<br><br>
+						大二
+						<br><br>
+						专业： 计算机工程
+						<br><br>
+						辅修： 数据科学
+						<br><br>
+						GPA: 3.9/4.0 （当前）
+						
+
+						</p>
+
+					</figure>
+
+
+				</div>
+
+
+
+				<!--Skill-->
+				<div class="row" id="skill">
+					<!-- Img half-->
+					<figure class="col-sm-6">
+						<p>职业技能</p>
+						<img src = "./skill.jpg" alt = "skill img">
+					</figure>
+					<figure class="col-sm-6">
+						<a class="back_to_top"  href="#top">
+							<p  align="right">（返回顶部）</p></a>
+				
+						<p >
+						编程语言:<br><br>
+						<span class="tab">
+						    * 一年以上经验: Java, C++, C <br>
+							* 熟悉: HTML, XML, Bash, Python, JavaScript 
+						</span>
+						<br><br>
+						开发经验:<br><br>
+						<span class="tab">
+							使用以上语言独立编写程序 （比如这个网页).
+							熟悉 APIs, Libraries. 熟练掌握绝大部分数据结构.<br><br>
+							团队project
+						(10 人)： 使用Android Studio开发安卓手机软件. 我负责其中“Me”的
+						页面，前端和后端都有涉及，
+						包含编写几个XML和Java文件, 以及完成需要用到数据库的功能。
+						(我们使用的数据库为firebase).<br>
+						
+						</span>
+
+						</p>
+					</figure>
+
+
+				</div>
+
+
+
+				<!--Interest-->
+				<div class="row" id="interest"> 
+					<figure class="col-sm-6">
+						<p>兴趣爱好</p>
+						<img src = "./sport.jpg" alt = "interest img">
+						
+					</figure>
+
+					<figure class="col-sm-6">
+						<a class="back_to_top"  href="#top">
+							<p  align="right">(返回顶端)</p></a>
+					
+						<p>
+						运动:<br>
+						篮球， 羽毛球， 乒乓球(这个打得并不好 -.- )<br><br>
+						影视:<br>
+						漫威粉丝！ 科幻迷。 也喜欢看动漫 :)<br><br>
+						音乐:<br>
+						涉足广泛 *。*
+						</p>
+
+					</figure>
+				</div>
+
+
+			</section>
+
+
+			<footer class="container">
+				<div class="row">
+					<p class="col-sm-4" style="color: white; margin-top:40px">
+					&copy; 2018 Chunan Huang<br>
+					������: 2018-3-10
+					</p>
+					<ul class="col-sm-8">
+						<li class="col-sm-1">
+							<a href="https://www.facebook.com/chunan.huang.54" 
+								target="_blank">
+								<img src="fb.png" alt="facebook" >
+							</a>
+						</li>
+						<li class="col-sm-1">
+							<a href="./qr.JPG"
+								target="_blank">
+								<img src="wechat.png" alt="wechat">
+							</a>
+						</li>
+						<li class="col-sm-1">
+							<a href="./email.html"
+								target="_blank">
+								<img src="gmail.png" alt="gmail">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+
+	</body>
+</html>
+
+

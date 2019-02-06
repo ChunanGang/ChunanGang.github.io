@@ -1,0 +1,126 @@
+/*
+ * Chunan Huang
+ */ 
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.tab { 
+       display:inline-block; 
+       margin-left: 40px; 
+}
+/* ------------------------------------------------- */
+/*
+.top_part{
+	background-image:url("./sky.jpg");
+}
+*/
+
+
+
+header .row,
+footer .row {
+	display: flew;
+	align-items: center;
+}
+
+/* My_page */
+
+
+/* nv bar Part*/
+header nav {
+	display: flex;
+	justify-content: flex-start;
+	margin-top:20px;
+	margin-bottom:10px;
+
+}
+header nav p {
+	font-size: 20px;
+	margin-right: 40px;
+}
+#language{
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+/* ^^^^^^^^^^^^^^^^^^ header ^^^^^^^^^^^ */
+
+/* ----------------- Jumbotron ------------------- */
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-image:url("./sd.jpg");
+	background-size: cover;
+	color: #ffffff;
+	height: 600px;
+
+}
+
+.jumbotron h2 {
+	font-size: 80px;
+	font-weight: 700;
+	margin: 0;
+	color: #fff;
+}
+
+.jumbotron h3 {
+	margin-top:20px;
+	font-size: 25px;
+	color: #fff;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+/* ----------------- Contents ----------------- */
+#content{
+	background-image: url("sky.jpg");
+}
+section .row img {
+	/*height: 330px;*/
+	height: 100%;
+	width: 100%;
+}
+section .row{
+	margin-top:80px;
+	border-style: ridge;
+	
+	border-width: 5px;
+	background-color: #ffffff;	
+}
+.col-sm-6 {
+	margin: 20px 0px 25px;
+}
+
+figure p{
+	
+	font-size: 20px;
+}
+
+.back_to_top{
+	font-size: 20px;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+footer {
+	font-size: 20px;
+	padding: 20px 0;
+}
+
+footer .col-sm-8 {
+	margin-top:40px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer li img {
+	width: 32px;
+	height: 32px;
+}
