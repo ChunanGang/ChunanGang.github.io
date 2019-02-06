@@ -2,23 +2,27 @@
  * Chunan Huang
  */ 
 
+
+/* global setup */
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 }
 
 .tab { 
-       display:inline-block; 
-       margin-left: 40px; 
+	display:inline-block; 
+	margin-left: 40px; 
 }
-/* ------------------------------------------------- */
-/*
+
+
+/* ------------ top part ------------------ */
+
 .top_part{
-	background-image:url("./sky.jpg");
+	position: fixed;
+	background-color:#222;
+	width:100%;
+	z-index:999;
 }
-*/
-
-
 
 header .row,
 footer .row {
@@ -26,33 +30,37 @@ footer .row {
 	align-items: center;
 }
 
-/* My_page */
-
 
 /* nv bar Part*/
 header nav {
 	display: flex;
 	justify-content: flex-start;
-	margin-top:20px;
-	margin-bottom:10px;
+	margin-top:10px;
+/*	margin-bottom:5px;*/
 
 }
 header nav p {
 	font-size: 20px;
 	margin-right: 40px;
 }
+
+header a{
+	text-decoration: none !important;
+}
+header a:hover {
+	color: #fff;
+}
 #language{
-	margin-top: 25px;
+	margin-top: 10px;
 	margin-right: 20px;
 }
 
-/* ^^^^^^^^^^^^^^^^^^ header ^^^^^^^^^^^ */
 
 /* ----------------- Jumbotron ------------------- */
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background-image:url("./sd.jpg");
+	background-image:url("./forest.gif");
 	background-size: cover;
 	color: #ffffff;
 	height: 600px;
@@ -86,7 +94,7 @@ section .row img {
 section .row{
 	margin-top:80px;
 	border-style: ridge;
-	
+
 	border-width: 5px;
 	background-color: #ffffff;	
 }
@@ -95,7 +103,7 @@ section .row{
 }
 
 figure p{
-	
+
 	font-size: 20px;
 }
 
@@ -105,6 +113,7 @@ figure p{
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
+/* ------- footer ----------------*/
 footer {
 	font-size: 20px;
 	padding: 20px 0;
@@ -124,3 +133,9 @@ footer li img {
 	width: 32px;
 	height: 32px;
 }
+
+
+
+
+
+

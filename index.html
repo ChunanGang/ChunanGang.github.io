@@ -21,7 +21,9 @@
 
 
 	<body >
-		<div class="top_part" id="top">
+
+		<!-- top nav bar -->
+		<div class="top_part">
 
 			<!-- Use Bootstrap container For Header-->
 			<header class="container">
@@ -34,14 +36,14 @@
 						<p><a href="#interest">Interest</a></p>
 					</nav>
 					<p align="right" id="language">
-					<a href="chinese.html">ä¸­æ–‡</a>
+					<a href="chinese.html">ÖÐÎÄ</a>
 					</p>
 				</div>
 			</header>
 		</div>
 
 		<!-- Jumbotron for Chunan Huang-->
-		<section class="jumbotron">
+		<section class="jumbotron"  id="top">
 			<div class="container">
 				<div class="text-center">
 					<h3>Welcome to the web of</h3>
@@ -57,31 +59,33 @@
 			<section class="container" >
 
 				<!--Info-->
-				<div class="row" id="info"> 
+				<div class="row" id="info">
 					<figure class="col-sm-6">
 						<p>Basic Information</p>
 						<img src = "./profile.jpg" alt = "profile img">
-						
+
 					</figure>
 
 					<figure class="col-sm-6">
 						<a class="back_to_top"  href="#top">
 							<p  align="right">(back to top)</p></a>
-						<p>
-						Name:Chunan Huang<br><br>
-						Nationality:China<br><br>
-						Gender:  Straight Male *_*<br><br>
-						Characteristic: <br><br>
-						<span class="tab">
-							Ambitious and confident guy(tho sometimes over-confident-.-); 
-							like challenges<br><br>
-							Motto: if someone else can do that, why can't I?<br><br>
-							Value efficiency. Don't like wasting time. Prefer to plan
-							before doing.<br><br>
-							Humorous guy with good temper. Therefore, I can always
-							have a good time with many people :)
-						</span>
-						</p>
+						<section class="effect effect-a">
+							<p >
+							Name:Chunan Huang<br><br>
+							Nationality:China<br><br>
+							Gender:  Straight Male *_*<br><br>
+							Characteristic: <br><br>
+							<span class="tab">
+								Ambitious and confident guy(tho sometimes over-confident-.-); 
+								like challenges<br><br>
+								Motto: if someone else can do that, why can't I?<br><br>
+								Value efficiency. Don't like wasting time. Prefer to plan
+								before doing.<br><br>
+								Humorous guy with good temper. Therefore, I can always
+								have a good time with many people :)
+							</span>
+							</p>
+						</section>
 
 					</figure>
 				</div>
@@ -93,7 +97,7 @@
 					<figure class="col-sm-6">
 						<p>Education</p>
 						<img src = "./ucsd.jpg" alt = "ucsd img" style="background-size: cover;">
-						
+
 					</figure>
 
 					<!-- Txt-->
@@ -101,20 +105,20 @@
 					<figure class="col-sm-6" >
 						<a class="back_to_top"  href="#top">
 							<p  align="right">(back to top)</p></a>
-					
+
 						<p >
-						<a href = "https://en.wikipedia.org/wiki/University_of_California,_San_Diego" target="_blank">University of California, San Diego</a>
+						<a href = "https://en.wikipedia.org/wiki/University_of_California,_San_Diego" target="_blank">University of California, San Deigo</a>
 						<br><br>
 						Undergraduate 
 						<br><br>
-						2016 - 2020
+						Sophomore
 						<br><br>
 						Major: Computer Engneering
 						<br><br>
 						Minor: Planning to Minor in Data Science #_#
 						<br><br>
 						GPA: 3.9/4.0 (Currently)
-						
+
 
 						</p>
 
@@ -135,7 +139,7 @@
 					<figure class="col-sm-6">
 						<a class="back_to_top"  href="#top">
 							<p  align="right">(back to top)</p></a>
-				
+
 						<p >
 						Coding Languages:<br><br>
 						<span class="tab">
@@ -144,16 +148,16 @@
 						</span>
 						Development Experience:<br><br>
 						<span class="tab">
-						Personal projects using coding languages described above (like this web).
-						Familiar with many APIs, Libraries. Familiar with most of
-						data structures.<br><br>
-					
-							A team project
-						(10 people) of developing an Android App using
-						Android Studio. My job is implementing the "Me" page of our app,
-						which includes writing serveral XML/Java files and implementing 
-						fucntionalities that uses database (We used Firebase in out proj).<br> 
-				
+							Personal projects using coding languages described above (like this web).
+							Familiar with many APIs, Libraries. Familiar with most of
+							data structures.<br><br>
+							<a href = "https://github.com/ChunanGang/unilink" target="_blank">
+								A team project</a>
+							(10 people) of developing an Android App using
+							Android Studio. My job is implementing the "Me" page of our app,
+							which includes writing serveral XML/Java files and implementing 
+							fucntionalities that uses database (We used Firebase in out proj).<br> 
+							(Proj still in process(70%), will be done by June 10th).
 						</span>
 
 						</p>
@@ -169,13 +173,13 @@
 					<figure class="col-sm-6">
 						<p>Interest</p>
 						<img src = "./sport.jpg" alt = "interest img">
-						
+
 					</figure>
 
 					<figure class="col-sm-6">
 						<a class="back_to_top"  href="#top">
 							<p  align="right">(back to top)</p></a>
-					
+
 						<p>
 						Sport:<br>
 						Basketball, Badminton, Ping-Pong(I suck tho -.-)<br><br>
@@ -191,7 +195,7 @@
 
 			</section>
 
-			<!-- footer part of the web -->
+			<!-- footer -->
 			<footer class="container">
 				<div class="row">
 					<p class="col-sm-4" style="color: white; margin-top:40px">
@@ -201,19 +205,19 @@
 					<ul class="col-sm-8">
 						<li class="col-sm-1">
 							<a href="https://www.facebook.com/chunan.huang.54" 
-								target="_blank">
+	  target="_blank">
 								<img src="fb.png" alt="facebook" >
 							</a>
 						</li>
 						<li class="col-sm-1">
 							<a href="./qr.JPG"
-								target="_blank">
+	  target="_blank">
 								<img src="wechat.png" alt="wechat">
 							</a>
 						</li>
 						<li class="col-sm-1">
 							<a href="./email.html"
-								target="_blank">
+	  target="_blank">
 								<img src="gmail.png" alt="gmail">
 							</a>
 						</li>
