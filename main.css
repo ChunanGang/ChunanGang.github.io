@@ -60,7 +60,7 @@ header a:hover {
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background-image:url("./forest.gif");
+	background-image:url("img/forest.gif");
 	background-size: cover;
 	color: #ffffff;
 	height: 600px;
@@ -84,7 +84,7 @@ header a:hover {
 
 /* ----------------- Contents ----------------- */
 #content{
-	background-image: url("sky.jpg");
+	background-image: url("img/sky.jpg");
 }
 section .row img {
 	/*height: 330px;*/
