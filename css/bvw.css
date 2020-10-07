@@ -1,0 +1,89 @@
+/*
+ * Chunan Huang
+ */ 
+
+
+/* global setup */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.tab { 
+	display:inline-block; 
+	margin-left: 40px; 
+}
+
+
+/* ----------------- Jumbotron ------------------- */
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-image:url("../img/bvw.jpg");
+	background-size: cover;
+	color: #ffffff;
+	height: 800px;
+
+}
+
+.jumbotron h2 {
+	font-size: 80px;
+	font-weight: 700;
+	margin: 10;
+	color: rgb(155, 240, 166);
+}
+.jumbotron p {
+	font-weight: 500;
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+/* ----------------- Contents ----------------- */
+body{
+	background-image: url("../img/bvw_back.jpg");
+}
+section .row img {
+	/*height: 330px;*/
+	
+	height: 100%;
+	width: 100%
+}
+section .round video {
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 100%;
+	width: 95%
+}
+section .round{
+	border-style: ridge;
+
+	border-width: 10px;
+	background-color: #ecbfce;	
+}
+section .row{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.col-sm-6 {
+	margin: 0px 0px 25px;
+}
+
+figure p{
+
+	font-size: 20px;
+}
+
+.back_to_top{
+	font-size: 20px;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+
+
+
+
