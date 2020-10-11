@@ -23,24 +23,32 @@
 
     <div id="view-0" class="view" style="display: flex;">
       <div id="view-0-section-0" class="section " style="height: 100%;">
-      <div id="view-0-section-0-element-0" class="button-300-150 button-element element">
-    <div class="button-text">UP</div>
-  </div>
-  <div id="view-0-section-0-element-1" class="button-300-150 button-element element">
-    <div class="button-text">DOWN</div>
+      <div id="movepad" class="dpad-absolute-container">
+    <div class="dpad-absolute" style="position: static;">
+      <div class="dpad-arrow dpad-arrow-up"></div>
+      <div class="dpad-arrow dpad-arrow-down"></div>
+      <div class="dpad-arrow dpad-arrow-left"></div>
+      <div class="dpad-arrow dpad-arrow-right"></div>
+    </div>
   </div>
   </div>
       <div id="view-0-section-1" class="section " style="height: 100%;">
-      <div id="view-0-section-1-element-0" class=" button-element element">
-    <div id="player_id" class="button-text">14141</div>
+      <div id="infotext" class="button-150-150 button-element element">
+    <div id="player_id" class="button-text">text</div>
   </div>
-  <div id="view-0-section-1-element-1" class="button-300-300 button-element element">
-    <div class="button-text">ATTACK</div>
+  <div id="attackButton" class="button-300-300 button-element element">
+    <div class="button-text">A</div>
   </div>
   </div>
   </div>
   
+  
   <script type="text/javascript">
+    var ctrl_data = '{"orientation":"landscape","selected_view_id":"view-0","views":[{"id":"view-0","sections":[{"id":"view-0-section-0","elements":[{"id":"movepad","key":"dpad_absolute","name":"DPad Absolute","tmpl":"dpad","constructor_fn":"DPadAbsoluteElement","options":{"constructor_args":{"diagonal":true},"attr_id":"view-0-section-0-element-0","css_classes":"","view_action":{"target":null,"view_id":null}}}],"classes":[]},{"id":"view-0-section-1","elements":[{"id":"infotext","key":"button","name":"Button","tmpl":"button","constructor_fn":"ButtonElement","options":{"constructor_args":{},"attr_id":"view-0-section-1-element-0","css_classes":"button-150-150","view_action":{"target":null,"view_id":null},"label":"text","send_onrelease":false,"message_data":[]}},{"id":"attackButton","key":"button","name":"Button","tmpl":"button","constructor_fn":"ButtonElement","options":{"constructor_args":{},"attr_id":"view-0-section-1-element-1","css_classes":"button-300-300","view_action":{"target":null,"view_id":null},"label":"A","send_onrelease":false,"message_data":[{"key":"attack","value":"1"}]}}],"classes":[]}]}]}';
+  </script>
+  
+
+<script type="text/javascript">
     var airconsole;
     function init() {
       airconsole = new AirConsole({"orientation": "landscape"});
@@ -67,11 +75,7 @@
           div.innerHTML = "You are the player 2";
         };
     }
-  </script>
-
-  <script type="text/javascript">
-    var ctrl_data = '{"orientation":"landscape","selected_view_id":"view-0","views":[{"id":"view-0","sections":[{"id":"view-0-section-0","elements":[{"id":"view-0-section-0-element-0","key":"button","name":"Button","tmpl":"button","constructor_fn":"ButtonElement","options":{"constructor_args":{},"attr_id":"view-0-section-0-element-0","css_classes":"button-300-150","view_action":{"target":null,"view_id":null},"label":"UP","send_onrelease":true,"message_data":[{"key":"move","value":"1"},{"key":"attack","value":"0"}]}},{"id":"view-0-section-0-element-1","key":"button","name":"Button","tmpl":"button","constructor_fn":"ButtonElement","options":{"constructor_args":{},"attr_id":"view-0-section-0-element-1","css_classes":"button-300-150","view_action":{"target":null,"view_id":null},"label":"DOWN","send_onrelease":true,"message_data":[{"key":"move","value":"-1"},{"key":"attack","value":"0"}]}}],"classes":[]},{"id":"view-0-section-1","elements":[{"id":"view-0-section-1-element-0","key":"button","name":"Button","tmpl":"button","constructor_fn":"ButtonElement","options":{"constructor_args":{},"attr_id":"view-0-section-1-element-0","css_classes":"","view_action":{"target":null,"view_id":null},"label":"14141","send_onrelease":false,"message_data":[]}},{"id":"view-0-section-1-element-1","key":"button","name":"Button","tmpl":"button","constructor_fn":"ButtonElement","options":{"constructor_args":{},"attr_id":"view-0-section-1-element-1","css_classes":"button-300-300","view_action":{"target":null,"view_id":null},"label":"ATTACK","send_onrelease":false,"message_data":[{"key":"attack","value":"1"}]}}],"classes":[]}]}]}';
-  </script>
+</script>
 
     <!-- REPLACE_HERE END -->
 
