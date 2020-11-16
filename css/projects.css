@@ -19,11 +19,10 @@ body {
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background-image:url("../img/project.jpeg");
+	background-image:url("../img/project.jpg");
 	background-size: cover;
 	color: #ffffff;
 	height: 800px;
-
 }
 
 
@@ -32,7 +31,7 @@ body {
 
 /* ----------------- Contents ----------------- */
 body{
-	background-image: url("../img/bvw_back.jpg");
+	background-image: url("../img/projectBack.jpg");
 }
 section .row img {
 	/*height: 330px;*/
