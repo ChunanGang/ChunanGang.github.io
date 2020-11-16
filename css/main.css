@@ -91,6 +91,10 @@ section .row img {
 	height: 100%;
 	width: 100%;
 }
+#profileImg{
+	height: 70%;
+	width: 70%;
+}
 section .row{
 	margin-top:80px;
 	border-style: ridge;
