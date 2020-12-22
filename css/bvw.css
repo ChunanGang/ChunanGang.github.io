@@ -37,6 +37,9 @@ body {
 	font-size: 25px;
 	color: rgb(255, 255, 255);
 }
+.jumbotron container{
+	align-items: center;
+}
 
 /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
@@ -51,12 +54,7 @@ section .row img {
 	height: 100%;
 	width: 100%
 }
-section .round video {
-	margin-left: 10px;
-	margin-right: 10px;
-	height: 100%;
-	width: 95%
-}
+
 section .round{
 	border-style: ridge;
 
@@ -64,11 +62,8 @@ section .round{
 	background-color: #ecbfce;	
 }
 section .row{
-	margin-left: 10px;
-	margin-right: 10px;
-}
-.col-sm-6 {
-	margin: 0px 0px 25px;
+	margin-left: 30px;
+	
 }
 
 figure p{
