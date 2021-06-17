@@ -42,12 +42,7 @@ a{
 body{
 	background-image: url("../img/project_back.jpg");
 }
-section .row img {
-	/*height: 330px;*/
-	
-	height: 100%;
-	width: 100%
-}
+
 section .round video {
 	margin-left: 10px;
 	margin-right: 10px;
