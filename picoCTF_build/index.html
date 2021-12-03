@@ -33,7 +33,7 @@
         frameworkUrl: buildUrl + "/picobuild.framework.js",
         codeUrl: buildUrl + "/picobuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "404 Productions",
         productName: "picoCTF2022",
         productVersion: "0.1",
       };
@@ -65,6 +65,7 @@
         canvas.style.width = "960px";
         canvas.style.height = "540px";
       }
+      canvas.style.background = "url('" + buildUrl + "/picobuild.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
